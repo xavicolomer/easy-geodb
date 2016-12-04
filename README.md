@@ -39,13 +39,6 @@ node . --settings ../settings.dynamodb.json
 }
 ```
 
-| Attribute | Required | Values | Description |
-| ------ | -- | ----------- | ----------- |
-| db   | yes | dynamodb or postgresql | Specify the target Database |
-| connection | yes| (below) | Specificies basic configuration for the target database |
-| schema    | yes | (below) | You can costumize the names of the table (plural, singular, etc...) |
-| optional   | no | './path/to/errorFile.txt' | If for some reasont he script stops, all errors will be stored on this file |
-
 Example **dynamodb** configuration connection attribute:
 
 ```json
@@ -76,7 +69,7 @@ Example **schema** configuration connection attribute:
     },
     "city": {
         "table": "Cities",
-        "population": 5000 //1000 | 1500 | 5000
+        "population": 5000
     }
 },
 ```
