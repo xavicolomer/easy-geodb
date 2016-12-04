@@ -1,0 +1,17 @@
+{
+    "db": "dynamodb",
+    "connection": {
+        "region": "eu-west-1",
+        "endpoint": "https://dynamodb.eu-west-1.amazonaws.com"
+    },
+    "schema": {
+        "country": {
+            "table": "Countries"
+        },
+        "city": {
+            "table": "Cities",
+            "population": 500
+        }
+    },
+    "errorFileName": "errors.txt"
+}

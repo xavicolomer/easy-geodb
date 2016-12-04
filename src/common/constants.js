@@ -1,0 +1,26 @@
+module.exports = {
+  BAR_FORMAT: '[:bar] :current/:total :percent :etas',
+
+  ERROR_MISSING_SETTINGS: 'You have to define a configuration file: node . --settings path/to/settings/file.',
+  ERROR_SETTINGS_PATH_INVALID: 'Configuration path is not valid.',
+  ERROR_NO_FORMAT_ATTRIBUTE: 'You have to define a `formatItem` attribute to format the data.',
+  ERROR_NO_CONNECTION_ATTRIBUTE: 'You have to define a connection in your schema',
+  ERROR_NO_USER_ATTRIBUTE: 'You have to define a user',
+  ERROR_NO_PASSWORD_ATTRIBUTE: 'You have to define a password',
+  ERROR_NO_IP_ATTRIBUTE: 'You have to provide the ip of the endpoint containing the PostgreSQL instance',
+  ERROR_NO_DATABASE_ATTRIBUTE: 'You have to define the name of a database',
+  ERROR_ITEMS_LIST_EMPTY: 'The list of items is empty.',
+  ERROR_NO_REGION_OR_ENDPOINT: 'You have to define a region and an endpoint',
+  ERROR_TOO_MUCH_ATTEMPTS: 'Too much attempts to delete the table',
+  ERROR_CANNOT_FORMAT_DATA: 'Cannot format query with invalid data',
+  ERROR_SETTINGS_INVALID_STRUCTURE: 'Settings file does not contain a valid structure',
+  ERROR_MISSING_ENGINE: 'Settings file does not contain a valid `db` property',
+  ERROR_WRONG_ENGINE: 'Wrong db attribute, valid values are: dynamodb, postgresql',
+  ERROR_NO_SCHEMA_ATTRIBUTE: 'No schema has been defined.',
+  ERROR_NO_SCHEMA_FOR_COUNTRY: 'You have to define a schema for the Countries Table',
+  ERROR_NO_SCHEMA_FOR_CITY: 'You have to define a schema for the Cities Table',
+  ERROR_WRONG_POPULATION: 'Wrong population number, vaid values are: 1000, 1500 and 5000',
+
+  RESOURCE_IN_USE: 'ResourceInUseException',
+  RESOURCE_NOT_FOUND: 'ResourceNotFoundException',
+};

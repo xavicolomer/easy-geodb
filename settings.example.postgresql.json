@@ -1,0 +1,20 @@
+{
+    "db": "postgresql",
+    "connection": {
+        "user": "Creator4983",
+        "password": "********************",
+        "port": 5432,
+        "ip": "00.00.00.00",
+        "database": "database_name"
+    },
+    "schema": {
+        "country": {
+            "table": "countries"
+        },
+        "city": {
+            "table": "cities",
+            "population": 5000
+        }
+    },
+    "errorFileName": "errors.txt"
+}

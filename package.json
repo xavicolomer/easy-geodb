@@ -1,0 +1,37 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Easy Geo DB is a script that allows you to create and fill databases with Country and City tables, including latitude and longitude",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "test": "NODE_ENV=test mocha --recursive ./**/*.test.js -w",
+    "test:single": "NODE_ENV=test mocha --recursive ./**/*.test.js",
+    "coverage": "NODE_ENV=test istanbul cover -x ./tests node_modules/.bin/_mocha -- -R spec ./**/*.js"
+  },
+  "author": "Xavi Colomer",
+  "homepage": "http://xavicolomer.com",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-progress": "^1.0.5",
+    "aws-sdk": "^2.7.7",
+    "bluebird": "^3.4.6",
+    "minimist": "^1.2.0",
+    "pg": "^6.1.0",
+    "request": "^2.79.0",
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^1.6.1",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "istanbul": "^1.0.0-alpha.2",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6",
+    "sinon-as-promised": "^4.0.2",
+    "sinon-chai": "^2.8.0",
+    "sinon-stub-promise": "^4.0.0"
+  }
+}
