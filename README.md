@@ -1,7 +1,6 @@
 # Easy GeoDB #1.0.0
 
 Easy Geo DB is a script that helps you creating City and Country tables.
-**All the the cities and countries are provided by the script itself.**
 
 ![screen shot 2016-12-04 at 15 03 56](https://cloud.githubusercontent.com/assets/1476272/20866707/832539ac-ba33-11e6-9113-f66bd6607369.png)
 
