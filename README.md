@@ -86,6 +86,7 @@ Example **schema** configuration connection attribute:
 - npm install
 - Run the script
 
+## Testing
 ```javascript
 npm run test:single
 ```
